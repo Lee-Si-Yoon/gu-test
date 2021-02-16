@@ -1,0 +1,16 @@
+.frame__container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.frame__container iframe{
+    width: inherit;
+    height: inherit;
+    border: none;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow: hidden;
+    z-index: -1;
+}

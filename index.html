@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gu-min</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <iframe src="http://wwwwwwwww.jodi.org/" class='iframes__back' allowfullscreen></iframe>
-    <div class="dummy"></div>
-    <div class="button_container">
-        <div class="button"><a href="https://theuselessweb.com/">touch here</a></div>
-        <div class="button"><a href="https://damn.dog/#122">touch here</a></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <style>
+      @import "../styles/reset.css";
+      .frame__container {
+        width: auto;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        position: relative;
+        background-color: rgba(0, 0, 0, .3);
+      }
+      .frame__container img {
+        max-width: 100%;
+      }
+      .button1{
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding: 5rem;
+        top: 40%;
+        left: 20%;
+      }
+      .button2{
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding: 5rem;
+        top: 40%;
+        left: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame__container">
+      <!--<img src="#" alt="b2_base" />-->
+      <a href="/b/b1.html" class="button1">
+        <span>to b1</span>  
+        <!--<img src="#" alt="btn1" class="btn_img"/>-->
+      </a>
+      <a href="/b/b2.html" class="button2">
+        <span>to b2</span>
+        <!--<img src="#" alt="btn2" class="btn_img"/>-->
+      </a>
     </div>
-</body>
+  </body>
 </html>
